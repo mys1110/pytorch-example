@@ -35,7 +35,7 @@ test_loader = torch.utils.data.DataLoader(
     datasets.MNIST('../data', train=False, transform=transforms.ToTensor()),
     batch_size=args.batch_size, shuffle=True, **kwargs)
 
-
+# 아무주석 
 class VAE(nn.Module):
     def __init__(self):
         super(VAE, self).__init__()
